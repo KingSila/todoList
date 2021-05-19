@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+    <script>
+        function add() {
+          var txt = document.getElementById("todo")
+          var output = txt.value; 
+          getElementById('todo').innerHTML = output;
+        }
+        </script>
+<h1>To do list</h1>
+<form>
+    <label for="todo">To Do Item</label><br>
+    <input type="text" id='todo' name="todo">
+   
+    <input type="button" value="Add" onclick="add()">Add to List</button>
+    <output id="Results" for="output" ></output>
+</form>
+
+</head>
+</body>
+</html>
